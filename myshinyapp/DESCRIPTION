@@ -1,6 +1,6 @@
-Package: myshinyapp
+Package: Perroquet
 Type: Package
-Title: A simple template to package a Shiny app
+Title: Une application pour faire des commentaires automatiques de tableaux de données économiques
 Version: 0.1.0
 Author: InseeFrLab
 Maintainer: InseeFrLab <innovation@insee.fr>
@@ -9,10 +9,10 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports:
-    aws.s3, 
-    readr, 
-    DBI, 
-    RPostgres, 
-    glue,
-    shiny, 
-    leaflet
+    rsdmx
+    zoo
+    shiny
+    ggplot2
+    gridExtra
+    plotly
+    schoolmath
